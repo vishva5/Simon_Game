@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQuery</title>
+  <link href='https://fonts.googleapis.com/css?family=Original+Surfer&effect=emboss' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <h2 class="gameName">Simon Game</h2>
+
+  <div class="container">
+    <label for="count">Maximum Level :</label>
+    <input id="count" type="number" placeholder="Enter Max. Level" />
+  </div>
+  <div id="outercircle">
+    <div id="topleft"></div>
+    <div id="topright"></div>
+    <div id="bottomleft"></div>
+    <div id="bottomright"></div>
+    <div id="innercircle">
+      <div id="title" class="font-effect-emboss">SIMON!</div>
+      <div id="switches">
+        <input type="checkbox" class="toggle" id="on">
+        <button class="button" id="start">Start</button>
+        <input type="checkbox" class="toggle" id="strict">
+      </div>
+      <div class="text1">
+        <span>POWER</span><span>STRICT</span>
+      </div>
+      <div id="turn"></div>
+      <div class="text2">COUNT</div>
+    </div>
+  </div>
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+   <script src="index.js" charset="utf-8"></script> 
+</body>
+
+</html>
